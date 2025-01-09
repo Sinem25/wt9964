@@ -1,0 +1,125 @@
+/*body*/
+#body-top{
+    display: block;
+}
+/*navbar background*/
+#nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(78, 33, 10);
+}
+/**/
+.bg-gradient{
+    background: linear-gradient(45deg,rgb(78, 33, 10), #fec200) !important;;
+}
+.navbar-brand{
+    color: #fec200 !important;
+}
+.modal-body{
+    background-color: #fec200 !important;
+}
+/* bu kısım navbarın en üstte ve sabit biçimde gözükmesi için*/
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}    
+.fw-bold {
+    font-weight: 700 !important;
+}
+#nav .navbar-toggler {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+}
+
+#nav .navbar-nav .nav-item .nav-link {
+    color: #fec200 ;
+}
+.header{
+    background-color: #fec200;
+    padding-top: 9.5rem;
+    padding-bottom: 5rem
+}
+.img-badge{
+    height: 3rem;
+}
+#features{
+    background-color: #fec200;
+}
+.icon-feature {
+    font-size: 4rem;
+}
+.text-gradient {
+    background: -webkit-linear-gradient(#000, rgb(78, 33, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.head .device-mockup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.position-relative {
+    position: relative !important;
+}
+.head .circle{
+    position: absolute ;
+}
+img, svg {
+    vertical-align: middle;
+}
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+.bg-light {
+    background-color:#2b7d31 !important;
+}
+section.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+section.cta {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url(https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2022/04/FarmVille-3-Japan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section.cta .cta-content {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-footer {
+    background-color: rgb(78, 33, 10) !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-white-50 {
+    color:#fec200 !important;
+}
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+footer a {
+    color: #fec200;
+    text-decoration: none;
+}
